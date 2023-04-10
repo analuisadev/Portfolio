@@ -17,6 +17,7 @@ export const Menu = styled.header`
         gap: 4.5rem;
         list-style: none;
         font-size: 1.8rem;
+        font-weight: 400;
     }
 
     a {
