@@ -6,11 +6,6 @@ export const AboutServices = styled.div`
     align-items: center;
     flex-direction: column;
     gap: 3.0rem;
-
-    h2{
-        font-weight: 700;
-        font-size: 3.2rem;
-    }
 `
 
 export const TypesOfServices = styled.div`
@@ -33,7 +28,6 @@ export const InfoService = styled.div`
     p{
         color: var(--Secondary-Text-Color);
         font-weight: 500;
-        font-size: 1.8rem;
         width: 12.6rem;
     }
 `

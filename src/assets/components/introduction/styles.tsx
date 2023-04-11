@@ -14,14 +14,12 @@ export const MyIntroduction = styled.div`
     gap: 1.8rem;
 
     h1{
-        font-weight: 700;
         font-size: 3.6rem;
         width: 22.1rem;
     }
 
     p{
         color: var(--Secondary-Text-Color);
-        font-size: 1.8rem;
         font-weight: 500;
     }
 `

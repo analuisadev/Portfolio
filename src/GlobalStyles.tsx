@@ -36,4 +36,20 @@ a{
 a:hover{
     opacity: .8;
 }
+
+h1, 
+h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+span {
+    font-weight: 700;
+}
+
+p, 
+span, 
+nav ul{
+    font-size: 1.8rem;
+}
 `

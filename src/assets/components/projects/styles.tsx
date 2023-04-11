@@ -8,8 +8,6 @@ export const ContainerProjects = styled.div`
     margin-top: 12.7rem;
 
     h2{
-        font-weight: 700;
-        font-size: 3.2rem;
         margin-bottom: 3.0rem;
     }
 `
@@ -35,7 +33,6 @@ export const infoProject = styled.div`
 
     span{
         font-weight: 500;
-        font-size: 1.8rem;
     }
     
     a {

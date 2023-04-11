@@ -9,14 +9,12 @@ export const Menu = styled.header`
 
     span{
         font-size: 2.6rem;
-        font-weight: 700;
     }
 
     nav ul{
         display: flex;
         gap: 4.5rem;
         list-style: none;
-        font-size: 1.8rem;
         font-weight: 400;
     }
 
