@@ -4,10 +4,11 @@ import { Introduction } from './assets/components/introduction/Introduction'
 import { About } from './assets/components/about/About'
 import { Projects } from './assets/components/projects/Projects'
 import { Services } from './assets/components/services/Services'
+import { Skills } from './assets/components/skills/Skills'
+import { Footer } from './assets/components/footer/Footer'
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Skills } from './assets/components/skills/Skills'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -18,5 +19,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Projects />
     <Services />
     <Skills />
+    <Footer />
   </React.StrictMode>,
 )

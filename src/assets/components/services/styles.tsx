@@ -16,7 +16,8 @@ export const TypesOfServices = styled.div`
 export const Service = styled.div`
    width: 35.0rem;
    height: 18.0rem;
-   background: var(--Bg-Dark); 
+   background: var(--Bg-Dark);
+   border: .1rem solid var(--Border);
    border-bottom: .1rem solid var(--Green);
    padding: 2.5rem;
 `

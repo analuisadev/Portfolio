@@ -24,6 +24,7 @@ export const Project = styled.div`
     height: 24.0rem;
     background: var(--Bg-Dark);
     padding: 2.0rem 2.5rem;
+    border: .1rem solid var(--Border);
 `
 
 export const infoProject = styled.div`
