@@ -7,6 +7,7 @@ import { Services } from './assets/components/services/Services'
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Skills } from './assets/components/skills/Skills'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <About />
     <Projects />
     <Services />
+    <Skills />
   </React.StrictMode>,
 )

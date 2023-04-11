@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     --Secondary-Text-Color: #828282;
     --Border-Button: #333333;
     --Bg-Dark: #212121;
+    --Border: #333333;
     --Green: #00df5e;
     --White: #FFFFFF;
     font-size: 62.5%;
