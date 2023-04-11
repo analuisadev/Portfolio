@@ -21,7 +21,6 @@ export const Menu = styled.header`
     }
 
     a {
-        text-decoration: none;
         color: var(--Primary-Text-Color);
     }
 `

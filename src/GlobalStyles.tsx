@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     --Border-Button: #333333;
     --Bg-Dark: #212121;
     --Green: #00df5e;
+    --White: #FFFFFF;
     font-size: 62.5%;
 }
 
@@ -28,4 +29,11 @@ body {
     max-width: 100vw;
 }
 
+a{ 
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: .8;
+}
 `
