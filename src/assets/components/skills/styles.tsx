@@ -15,6 +15,16 @@ export const SkillsContainer = styled.div`
 export const ListOfSkills = styled.div`
     display: flex;
     gap: 5.1rem;
+
+    @media screen and (max-width: 1170px){
+        display: grid;
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    @media screen and (max-width: 720px){
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 `
 
 export const Skill = styled.div`

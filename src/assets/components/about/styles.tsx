@@ -15,6 +15,12 @@ export const AboutMe = styled.div`
         color: var(--Secondary-Text-Color);
         width: 74.5rem;
     }
+
+    @media screen and (max-width: 720px) {
+        p {
+            width: fit-content;
+        }
+    }
 `
 
 export const Social = styled.div`
@@ -22,7 +28,14 @@ export const Social = styled.div`
     gap: 18.6rem;
     align-items: center;
     justify-content: center;   
-`
+
+    @media screen and (max-width: 1300px) {
+        display: grid;
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .8rem;
+    }
+` 
 
 export const SocialContainer = styled.div`
     display: grid;

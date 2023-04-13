@@ -7,6 +7,16 @@ export const Section = styled.section`
     margin: auto;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 780px) {
+        width: fit-content;
+    }
+
+    @media screen and (max-width: 720px) {
+        img {
+            display: none;
+        }
+    }
 `
 
 export const MyIntroduction = styled.div`
@@ -22,13 +32,23 @@ export const MyIntroduction = styled.div`
         color: var(--Secondary-Text-Color);
         font-weight: 500;
     }
-`
 
+    @media screen and (max-width: 720px) {
+       h1, p {
+            width: 100%;
+            text-align: center;
+       }
+    }
+`
 export const Buttons = styled.button`
     border: 0;
     background: transparent;
     display: flex;
     gap: 1.5rem;
+
+    @media screen and (max-width: 720px) {
+        justify-content: center;
+    }
 `
     
 export const DownloadCv = styled.button`

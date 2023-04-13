@@ -21,4 +21,8 @@ export const Menu = styled.header`
     a {
         color: var(--Primary-Text-Color);
     }
+
+    // @media screen and (max-width: 720px){
+      
+    // }
 `

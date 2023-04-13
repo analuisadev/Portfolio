@@ -17,6 +17,16 @@ export const ProjectsBox = styled.div`
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4.5rem;
+
+    @media screen and (max-width: 1170px) {
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 18.1rem;
+    }
+
+    @media screen and (max-width: 720px) {
+        grid-template-columns: 1fr;
+    }
 `
 
 export const Project = styled.div`

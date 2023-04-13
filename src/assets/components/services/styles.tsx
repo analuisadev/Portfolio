@@ -12,6 +12,16 @@ export const TypesOfServices = styled.div`
     display: flex;
     gap: 4.5rem;
 
+    @media screen and (max-width: 1170px){
+        display: grid;
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 720px){
+        grid-template-columns: 1fr;
+    }
+
 `
 export const Service = styled.div`
    width: 35.0rem;
