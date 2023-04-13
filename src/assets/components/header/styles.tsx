@@ -15,7 +15,7 @@ export const Menu = styled.header`
         display: flex;
         gap: 4.5rem;
         list-style: none;
-        font-weight: 400;
+        font-weight: 400;   
     }
 
     a {

@@ -10,10 +10,6 @@ export const Baseboard = styled.div`
         display: flex;
         justify-content: center;
         font-size: 1.6rem;
-        color: var(--Secondary-Text-Color);
+        color: var(--Primary-Text-Color);
     }
 `
-
-// export const Author = styled.div`
-//     color: var(--Green);
-// `

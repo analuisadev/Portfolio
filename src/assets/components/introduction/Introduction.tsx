@@ -1,14 +1,14 @@
 import * as styled from './styles'
-import image from '../../../img/javascript-frameworks-animate.svg'
+import image from '../../../../public/javascript-frameworks-animate.svg'
+import Typewriter from '../typewritter/TypeWritter'
 
 export function Introduction() {
     return (
         <>
             <styled.Section>
                 <styled.MyIntroduction>
-                    <h1>Olá, Eu sou Ana Luisa :)</h1>
+                    <Typewriter text="Olá, eu sou Ana Luisa :)"/>
                     <p>Desenvolvedora Front-End</p>
-
                     <styled.Buttons>
                         <styled.DownloadCv>Download CV</styled.DownloadCv>
                         <styled.ContactMe>Entrar em contato</styled.ContactMe>

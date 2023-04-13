@@ -4,13 +4,13 @@ export function Header() {
     return (
         <>
             <Menu>
-                <span>Portfólio</span>
+                <span>Ana Luisa</span>
                 <nav>
                     <ul>
-                        <li><a href="#">Sobre mim</a></li>
-                        <li><a href="#">Projetos</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Minhas skills</a></li>
+                        <li><a href="#about">Sobre mim</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#skills">Minhas skills</a></li>
                     </ul>
                 </nav>
             </Menu>

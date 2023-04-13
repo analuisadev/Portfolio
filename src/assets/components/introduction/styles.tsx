@@ -32,7 +32,7 @@ export const Buttons = styled.button`
 `
     
 export const DownloadCv = styled.button`
-    background: #00DF5E;
+    background: var(--Cyan);
     font-size: 1.4rem;
     font-weight: 500;
     padding: 1.2rem 2.7rem;

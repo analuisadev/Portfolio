@@ -1,13 +1,13 @@
 import * as styles from './styles'
 
-import Habits from '../../../img/preview_habits.jpg'
-import FocusTimer  from '../../../img/preview_focus-timer.jpg'
+import Habits from '../../../../public/preview_habits.jpg'
+import FocusTimer  from '../../../../public/preview_focus-timer.jpg'
 
 export function Projects() {
     return (
         <>
             <styles.ContainerProjects>
-                <h2>Projetos</h2>
+                <h2 id="projects">Projetos</h2>
 
                 <styles.ProjectsBox>
                     <styles.Project>

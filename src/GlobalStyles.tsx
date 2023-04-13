@@ -9,16 +9,33 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar-track {
+    background-color: #232C3B;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1202f1;
+    border-radius: 15px;
+}
+
 :root {
-    --Bg-Body: #171717;
+    --Bg-Body: #121216;
     --Primary-Text-Color: #F9F9F9;
     --Secondary-Text-Color: #828282;
     --Border-Button: #333333;
     --Bg-Dark: #212121;
-    --Border: #333333;
-    --Green: #00df5e;
+    --Cyan: #00FFFF;
     --White: #FFFFFF;
     font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

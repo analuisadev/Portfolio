@@ -1,41 +1,34 @@
 import { SkillsContainer, ListOfSkills, Skill } from "./styles";
-import html from '../../../img/html.svg'
-import css from '../../../img/css.svg'
-import js from '../../../img/javascript.svg'
-import rectjs from '../../../img/react-js.svg'
-import styledComponents from '../../../img/styled-components.svg'
-import sass from '../../../img/sass.svg'
-
 
 export function Skills() {
     return (
         <>
             <SkillsContainer>
-                <h2>Minhas skills</h2>
+                <h2 id="skills">Minhas skills</h2>
 
                 <ListOfSkills>
                     <Skill>
-                        <img src={html} alt="HTML Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 Skill" />
                     </Skill>
 
                     <Skill>
-                        <img src={css} alt="CSS Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Skill" />
                     </Skill>
 
                     <Skill>
-                        <img src={js} alt="JavaScript Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Skill" />
                     </Skill>
 
                     <Skill>
-                        <img src={styledComponents} alt="Styled Components Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS Skill" />
                     </Skill>
 
                     <Skill>
-                        <img src={sass} alt="SASS Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="ReactJS Skill" />
                     </Skill>
 
                     <Skill>
-                        <img src={rectjs} alt="ReactJS Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript Skill" />
                     </Skill>
 
                 </ListOfSkills>

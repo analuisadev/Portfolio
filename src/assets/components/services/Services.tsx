@@ -5,25 +5,25 @@ export function Services() {
     return (
         <>
             <styles.AboutServices>
-                <h2>Serviços</h2>
+                <h2 id="services">Serviços</h2>
                 <styles.TypesOfServices>
                     <styles.Service>
                         <styles.InfoService>
-                            <Code size={32} color="var(--Green)" />
+                            <Code size={32} color="var(--Cyan)" />
                             <p>Criação de sites, blogs e páginas de vendas</p>
                         </styles.InfoService>
                     </styles.Service>
 
                     <styles.Service>
                         <styles.InfoService>
-                            <Bag size={32} color="var(--Green)" />
+                            <Bag size={32} color="var(--Cyan)" />
                             <p>Criação de portfólio</p>
                         </styles.InfoService>
                     </styles.Service>
 
                     <styles.Service>
                         <styles.InfoService>
-                            <DeviceMobile size={32} color="var(--Green)" />
+                            <DeviceMobile size={32} color="var(--Cyan)" />
                             <p>Sites responsivos</p>
                         </styles.InfoService>
                     </styles.Service>

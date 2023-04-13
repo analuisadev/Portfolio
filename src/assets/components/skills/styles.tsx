@@ -21,7 +21,12 @@ export const Skill = styled.div`
     width: 15.0rem;
     height: 15.0rem;
     background: var(--Bg-Dark);
-    border: .1rem solid var(--Border);
+    border: .1rem solid var(--Border-Button);
     display: grid;
     place-items: center;
+
+    img {
+        width: 10.0rem;
+        height: 10.0rem;
+    }
 `
