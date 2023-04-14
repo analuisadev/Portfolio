@@ -25,6 +25,10 @@ export const ListOfSkills = styled.div`
     @media screen and (max-width: 720px){
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    @media screen and (max-width: 560px) {
+        grid-template-columns: 1fr 1fr;
+    }
 `
 
 export const Skill = styled.div`

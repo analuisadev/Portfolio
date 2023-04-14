@@ -22,7 +22,11 @@ export const Menu = styled.header`
         color: var(--Primary-Text-Color);
     }
 
-    // @media screen and (max-width: 720px){
-      
-    // }
+    @media screen and (max-width: 560px) {
+        nav ul {
+            display: none;
+        }
+    }
 `
+
+export const MenuHamburguer = styled.div``

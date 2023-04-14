@@ -14,14 +14,13 @@ export const ContainerProjects = styled.div`
 
 export const ProjectsBox = styled.div`
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: max-content;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4.5rem;
+    margin-bottom: 18.1rem;
 
     @media screen and (max-width: 1170px) {
-        grid-template-rows: max-content;
         grid-template-columns: 1fr 1fr;
-        margin-bottom: 18.1rem;
     }
 
     @media screen and (max-width: 720px) {

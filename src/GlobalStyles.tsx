@@ -46,6 +46,7 @@ body {
     background: var(--Bg-Body);
     height: 100vh;
     max-width: 100vw;
+    align-items: center;
 }
 
 a{ 

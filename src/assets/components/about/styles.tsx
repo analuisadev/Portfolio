@@ -21,6 +21,12 @@ export const AboutMe = styled.div`
             width: fit-content;
         }
     }
+
+    @media screen and (max-width: 360px) {
+        p {
+            width: 80%;
+        }
+    }
 `
 
 export const Social = styled.div`
@@ -34,6 +40,10 @@ export const Social = styled.div`
         grid-template-rows: max-content;
         grid-template-columns: 1fr 1fr 1fr;
         gap: .8rem;
+    }
+
+    @media screen and (max-width: 360px){
+        grid-template-columns: 1fr;
     }
 ` 
 
