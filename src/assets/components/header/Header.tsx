@@ -1,4 +1,4 @@
-import { Menu, MenuHamburguer } from "./styles"
+import { Menu } from "./styles"
 
 export function Header() {
     return (
@@ -6,10 +6,6 @@ export function Header() {
             <Menu>
                 <span>Ana Luisa</span>
                 <nav>
-                    <MenuHamburguer>
-
-                    </MenuHamburguer>
-
                     <ul>
                         <li><a href="#about">Sobre mim</a></li>
                         <li><a href="#projects">Projetos</a></li>
