@@ -1,13 +1,16 @@
+import { useState } from "react";
 import { HamburgerMenu } from "./Menu-Mobile/MobileMenu"
 import { Menu } from "./styles"
 
 export function Header() {
+
     return (
         <>
             <Menu>
                 <span>Ana Luisa</span>
                 <nav>
-                    <HamburgerMenu/>
+                    <HamburgerMenu />
+
                     <ul>
                         <li><a href="#about">Sobre mim</a></li>
                         <li><a href="#projects">Projetos</a></li>

@@ -1,7 +1,7 @@
 import styled, { ThemedStyledProps } from "styled-components";
 
 interface HamburgerProps {
-    isOpen: boolean;
+  isOpen: boolean;
 }
 
 export const MenuContainer = styled.div`
@@ -20,7 +20,8 @@ export const MenuContainer = styled.div`
     }
   }
 `;
-
+// ESTILIZAR ALTURA DESTA CLASSE
+// .css-1160xiw-MuiPaper-root-MuiDrawer-paper
 export const ThinLine = styled.div<HamburgerProps>`
   width: 2.8rem;
   height: 0.1rem;
