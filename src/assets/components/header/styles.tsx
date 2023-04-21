@@ -1,12 +1,13 @@
 import styled from 'styled-components'
 
 export const Menu = styled.header`
-    
     display: flex;
-    justify-content: space-between;
     padding: 3.5rem;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
-
+    position: sticky;
+    top: 0;
     span{
         font-size: 2.6rem;
     }
@@ -16,13 +17,19 @@ export const Menu = styled.header`
         gap: 4.5rem;
         list-style: none;
         font-weight: 400;   
-    }
+        align-items: center;
+
+}
 
     a {
         color: var(--Primary-Text-Color);
     }
 
-    @media screen and (max-width: 560px) {
+    li:hover{
+        border-bottom: .2rem solid var(--Cyan);
+    }
+
+    @media screen and (max-width: 830px) {
         nav ul {
             display: none;
         }

@@ -1,37 +1,36 @@
 import styled from "styled-components";
 
-export const SkillsContainer = styled.div`
+export const WorkTool = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-top: 12.7rem;
-
+    gap: 1rem;
+    margin-top: 18.1rem;
     h2 {
         margin-bottom: 3.0rem;
     }
 `
 
-export const ListOfSkills = styled.div`
+export const ListOfTools = styled.div`
     display: flex;
     gap: 5.1rem;
     width: fit-content;
+    justify-content: center;
+
     @media screen and (max-width: 1366px){
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: max-content;
+        place-items: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 2.1rem;
-    }
+    }   
 
-    @media screen and (max-width: 920px){
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    @media screen and (max-width: 560px) {
+    @media screen and (max-width: 636px){
         grid-template-columns: 1fr 1fr;
     }
 `
 
-export const Skill = styled.div`
+export const Tool = styled.div`
     width: 15.0rem;
     height: 15.0rem;
     background: var(--Bg-Dark);

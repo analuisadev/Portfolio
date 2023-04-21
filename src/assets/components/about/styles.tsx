@@ -42,7 +42,7 @@ export const Social = styled.div`
         gap: .8rem;
     }
 
-    @media screen and (max-width: 360px){
+    @media screen and (max-width: 364px){
         grid-template-columns: 1fr;
     }
 ` 
@@ -53,6 +53,12 @@ export const SocialContainer = styled.div`
     margin-top: 10.5rem;
     place-items: center;
     text-align: center;
+    transition: all .5s;
+    
+    &:hover  {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
     
     p{
         font-weight: 400;

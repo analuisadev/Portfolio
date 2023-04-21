@@ -33,6 +33,10 @@ export const MyIntroduction = styled.div`
         font-weight: 500;
     }
 
+    a {
+        color: var(--Bg-Dark);
+    }
+    
     @media screen and (max-width: 720px) {
        h1, p {
             width: 100%;
@@ -50,7 +54,7 @@ export const Buttons = styled.button`
         justify-content: center;
     }
 `
-    
+
 export const DownloadCv = styled.button`
     background: var(--Cyan);
     font-size: 1.4rem;
@@ -64,4 +68,8 @@ export const ContactMe = styled(DownloadCv)`
     background: transparent;
     border: .1rem solid var(--Border-Button);
     color: var(--Primary-Text-Color);
+
+    a{
+        color: var(--Primary-Text-Color);
+    }
 `

@@ -1,4 +1,5 @@
 import { SkillsContainer, ListOfSkills, Skill } from "./styles";
+import styledComponents  from '../../../../public/styled-components-logo.png'
 
 export function Skills() {
     return (
@@ -25,6 +26,10 @@ export function Skills() {
 
                     <Skill>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="ReactJS Skill" />
+                    </Skill>
+
+                    <Skill>
+                        <img src={ styledComponents } alt="Styled Components Skill" />
                     </Skill>
 
                     <Skill>

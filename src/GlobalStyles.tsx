@@ -45,16 +45,13 @@ body {
     font-size: 1.6rem;
     background: var(--Bg-Body);
     height: 100vh;
-    max-width: 100vw;
+    min-width: 100vw;
     align-items: center;
+    position: relative;
 }
 
-a{ 
+a { 
     text-decoration: none;
-}
-
-a:hover{
-    opacity: .8;
 }
 
 h1, 

@@ -50,6 +50,10 @@ export const infoProject = styled.div`
         color: var(--White);
     }
 
+    a:hover{
+        opacity: .8;
+    }
+
     p{
         font-weight: 400;
         font-size: 1.4rem;

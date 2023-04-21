@@ -5,7 +5,6 @@ export const Baseboard = styled.div`
     background: var(--Bg-Dark);
     padding: 2.0rem 1.9rem;
     margin-top: 20.5rem;
-
     p {
         display: flex;
         justify-content: center;
