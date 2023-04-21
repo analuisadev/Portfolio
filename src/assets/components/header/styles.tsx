@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 export const Menu = styled.header`
     display: flex;
-    padding: 3.5rem;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    padding: 3.5rem;
+    width: 100%;
     top: 0;
     span{
         font-size: 2.6rem;
