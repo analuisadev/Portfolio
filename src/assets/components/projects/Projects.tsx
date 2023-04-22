@@ -1,7 +1,7 @@
 import * as styles from './styles'
 
-import Habits from '../../../../public/preview_habits.jpg'
-import FocusTimer from '../../../../public/preview_focus-timer.jpg'
+import Habits from '../../img/preview_habits.jpg'
+import FocusTimer from '../../img/preview_focus-timer.jpg'
 
 export function Projects() {
     return (

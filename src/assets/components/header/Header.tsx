@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { HamburgerMenu } from "./Menu-Mobile/MobileMenu"
 import { Menu } from "./styles"
+import HarmburguerMenu from "../HamburguerMenu/HarmburguerMenu";
 
 export function Header() {
 
@@ -9,8 +8,7 @@ export function Header() {
             <Menu>
                 <span>Ana Luisa</span>
                 <nav>
-                    <HamburgerMenu />
-
+                <HarmburguerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     <ul>
                         <li><a href="#about">Sobre mim</a></li>
                         <li><a href="#projects">Projetos</a></li>

@@ -35,5 +35,3 @@ export const Menu = styled.header`
         }
     }
 `
-
-export const MenuHamburguer = styled.div``

@@ -1,5 +1,5 @@
 import { SkillsContainer, ListOfSkills, Skill } from "./styles";
-import styledComponents  from '../../../../public/styled-components-logo.png'
+import styledComponents  from '../../img/styled-components-logo.png'
 
 export function Skills() {
     return (

@@ -1,5 +1,5 @@
 import * as styled from './styles'
-import image from '../../../../public/javascript-frameworks-animate.svg'
+import image from '../../img/javascript-frameworks-animate.svg'
 import Typewriter from '../typewritter/TypeWritter'
 
 export function Introduction() {
