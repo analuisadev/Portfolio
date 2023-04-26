@@ -1,5 +1,5 @@
 import { Menu } from "./styles"
-import HarmburguerMenu from "../HamburguerMenu/HarmburguerMenu";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
 export function Header() {
 
@@ -8,7 +8,7 @@ export function Header() {
             <Menu>
                 <span>Ana Luisa</span>
                 <nav>
-                <HarmburguerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                    <HamburgerMenu pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
                     <ul>
                         <li><a href="#about">Sobre mim</a></li>
                         <li><a href="#projects">Projetos</a></li>

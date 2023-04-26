@@ -18,15 +18,30 @@ export const Menu = styled.header`
         list-style: none;
         font-weight: 400;   
         align-items: center;
-
-}
+    }
 
     a {
         color: var(--Primary-Text-Color);
     }
 
-    li:hover{
-        border-bottom: .2rem solid var(--Cyan);
+    li {
+        position: relative;
+    }
+
+    li::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: .2rem;
+        background: var(--Cyan);
+        transition: width .3s ease-out;
+        transform: translateY(.6rem);
+    }
+
+    li:hover::after {
+        width: 100%;
     }
 
     @media screen and (max-width: 830px) {
