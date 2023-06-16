@@ -21,11 +21,15 @@ export function Skills() {
                     </Skill>
 
                     <Skill>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript Skill" />
                     </Skill>
 
                     <Skill>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="ReactJS Skill" />
+                    </Skill>
+                    
+                    <Skill>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS Skill" />
                     </Skill>
 
                     <Skill>
@@ -33,7 +37,11 @@ export function Skills() {
                     </Skill>
 
                     <Skill>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript Skill" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="GIT Skill" />
+                    </Skill>
+
+                    <Skill>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma Skill" />
                     </Skill>
 
                 </ListOfSkills>

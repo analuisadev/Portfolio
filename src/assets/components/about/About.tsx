@@ -8,7 +8,7 @@ export function About() {
                 <h2 id="about">Sobre mim</h2>
                 <p>Apaixonada pelo universo do desenvolvimento de software, 
                     formada em Análise e Desenvolvimento de Sistemas,
-                    focada na expertise de Front-End entusiasta a UI Desing e 
+                    focada na expertise de Front-End e 
                     criadora de conteúdo sobre tecnologia e programação no Instagram.
                     Amo aprender coisas novas, constantemente melhorando minhas habilidades
                     e sempre atenta as novidades no mundo da tecnologia.
@@ -43,7 +43,7 @@ export function About() {
                 <SocialContainer>
                     <Phone size={32} color="var(--Cyan)" />
                     <span>Telefone</span>
-                    <p>+55 71 98684-0756</p>
+                    <p>+55 71 98389-2098</p>
                 </SocialContainer>
 
             </Social>

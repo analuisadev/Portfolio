@@ -5,7 +5,7 @@ interface TypewriterProps {
   text: string;
 }
 
-const Typewriter = ({ text }: TypewriterProps) => {
+export function Typewriter({ text }: TypewriterProps) {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -19,5 +19,3 @@ const Typewriter = ({ text }: TypewriterProps) => {
 
   return <TypewriterWrapper>{displayText}</TypewriterWrapper>;
 };
-
-export default Typewriter;

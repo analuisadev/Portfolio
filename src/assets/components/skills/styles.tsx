@@ -16,7 +16,7 @@ export const ListOfSkills = styled.div`
     display: flex;
     gap: 5.1rem;
     width: fit-content;
-    @media screen and (max-width: 1366px){
+    @media screen and (max-width: 1786px){
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         gap: 2.1rem;

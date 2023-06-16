@@ -1,13 +1,13 @@
 import * as styled from './styles'
 import image from '../../img/javascript-frameworks-animate.svg'
-import Typewriter from '../typewritter/TypeWritter'
+import { Typewriter } from '../../typewritter/TypeWritter'
 
 export function Introduction() {
     return (
         <>
             <styled.Section>
                 <styled.MyIntroduction>
-                    <Typewriter text="Olá, eu sou Ana Luisa :)"/>
+                    <Typewriter text="Olá, eu sou Ana Luisa :)" />
                     <p>Desenvolvedora Front-End</p>
                     <styled.Buttons>
                         <styled.DownloadCv><a href="https://drive.google.com/file/d/11hMMn85XG6cLwYoGs9YRZDWJ6UtHDQcG/view?usp=share_link" target='_blank'>Download CV</a></styled.DownloadCv>
